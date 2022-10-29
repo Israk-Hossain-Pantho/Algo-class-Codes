@@ -10,7 +10,7 @@ void write(int *p, int n){
 
     for(int i=0; i<n; i++)
     {
-        p[i]=rand()%100;
+        cout<<rand()%100<<endl;
     }
 }
 
