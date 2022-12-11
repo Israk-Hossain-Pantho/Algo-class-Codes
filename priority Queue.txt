@@ -1,0 +1,10 @@
+
+priority_queue<student,vector<student>,cmp> pq;
+
+
+class cmp{
+public:
+    bool operator()(student &a, student &b){
+        return a.getCgpa()>b.getCgpa()?true:false;
+    }
+};
